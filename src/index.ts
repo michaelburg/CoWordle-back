@@ -2,6 +2,7 @@ import express from "express";
 import { createServer } from "http";
 import { Server } from "socket.io";
 import cors from "cors";
+// @ts-ignore
 import words from "an-array-of-english-words";
 
 const app = express();
